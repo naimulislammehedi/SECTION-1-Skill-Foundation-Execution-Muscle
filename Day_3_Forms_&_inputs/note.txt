@@ -1,0 +1,54 @@
+Assignment: Build a Fully Semantic Form Page 
+=====================================
+Create one HTML page that includes: 
+- Page Structure
+    - header with; 
+        - Site title (text logo)
+        - Simple navigation (nav + ul)
+    - 'main' containing one form 
+    - 'footer' with copyright
+- Form Requirements 
+use <form>, <fieldset>, <legend> properly 
+
+Section 1: Personal Information
+- Full Name (text)
+- Email (email)
+- Phone Number (tel)
+- Date of Birth (date)
+✔ Each input must have a <label>
+✔ Use required where logically necessary
+
+Section 2: Account Details
+- Username (text)
+- Password (password)
+- Confirm Password (password)
+✔ Use placeholder sparingly
+✔ Use autocomplete correctly
+
+Section 3: Preferences
+- Gender (radio buttons)
+- Skills (checkboxes: HTML, CSS, JavaScript)
+- Country (select + option)
+
+Section 4: Feedback
+- Message (textarea)
+- Experience Level (range)
+- Upload Resume (file)
+
+
+Form Controls
+- Submit button
+- Reset button
+
+Non-Negotiable Quality Rules
+=================================
+- Every input is accessible (label → input)
+- Inputs use correct type
+- Logical grouping via fieldset
+- Clean, readable HTML
+- No div soup
+
+Why this matters
+====================================
+Forms are where frontend meets real-world data.
+If you can’t write clean, accessible forms in raw HTML, frameworks will only hide your weaknesses — not fix them.
