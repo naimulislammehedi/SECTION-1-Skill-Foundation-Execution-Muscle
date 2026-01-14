@@ -1,0 +1,11 @@
+Rebuild Structure
+========================
+Create a fully semantic HTML page with:
+- Header (logo + nav)
+- Main section with:
+    - One article
+    - Two sections inside it
+    - Aside with related links
+- Footer with copyright
+
+No CSS. No classes. Pure structure.
